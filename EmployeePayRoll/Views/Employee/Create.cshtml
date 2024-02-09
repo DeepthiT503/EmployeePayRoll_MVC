@@ -1,0 +1,135 @@
+﻿@model ModelLayer.Models.EmployeeModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1 style="color:chocolate">Create Employee</h1>
+
+<h4 style="color:antiquewhite">EmployeeModel</h4>
+<hr /> 
+<style>
+    /* Custom radio button styling */
+    .custom-radio input[type="radio"] {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        width: 15px; /* Width of the custom radio button */
+        height: 15px; /* Height of the custom radio button */
+        border: 2px solid #999; /* Border color */
+        border-radius: 50%; /* Make it round */
+        /*outline: none;  Remove default focus style */
+       /* cursor: pointer;  Add cursor on hover */
+    }
+
+    /* Custom radio button checked state */
+    .custom-radio input[type="radio"]:checked {
+        background-color: #111; /* Change background color when checked */
+    }
+
+    /* Image styling */
+    .image-preview {
+        width: 70px; /* Adjust image width as needed */
+        height: auto; /* Maintain aspect ratio */
+    }
+</style>
+<div class="row">
+<div class="col-md-4">
+    <form asp-action="Create" class="styled-form">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="FullName" class="control-label"></label>
+            <input asp-for="FullName" class="form-control styled-input" />
+            <span asp-validation-for="FullName" class="text-danger"></span>
+        </div>
+
+            <div class="form-group">
+                <label asp-for="ImagePath" class="control-label">Select Image:</label> </br>
+                <div class="d-flex align-items-center gap-3" style="display:flex;gap:40px">
+                    <div class="mr-4">
+                        <label class="custom-radio">
+                            @Html.RadioButtonFor(model => model.ImagePath, Url.Content("~/Assets/p2.jpg"))
+                            <img class="image-preview" src="~/Assets/p2.jpg" />
+                        </label>
+                    </div>
+                    <div class="mr-4">
+                        <label class="custom-radio">
+                            @Html.RadioButtonFor(model => model.ImagePath, Url.Content("~/Assets/p3.jpg"))
+                            <img class="image-preview" src="~/Assets/p3.jpg" />
+                        </label>
+                    </div>
+                    <div class="mr-4">
+                        <label class="custom-radio">
+                            @Html.RadioButtonFor(model => model.ImagePath, Url.Content("~/Assets/p4.jpg"))
+                            <img class="image-preview" src="~/Assets/p4.jpg" />
+                        </label>
+                    </div>
+                    <div class="mr-4">
+                        <label class="custom-radio">
+                            @Html.RadioButtonFor(model => model.ImagePath, Url.Content("~/Assets/p5.jpg"))
+                            <img class="image-preview" src="~/Assets/p5.jpg" />
+                        </label>
+                    </div>
+                </div>
+                <span asp-validation-for="ImagePath" class="text-danger"></span>
+            </div>
+    
+            <div class="form-group">
+                <label asp-for="Gender" class="control-label">Select Gender: </label> <br /> 
+                <div class="d-flex align-items-center gap-3" style="display:flex;gap:40px">
+                <div class="mr-2">
+                      Male @Html.RadioButtonFor(m=>m.Gender, "Male")
+                </div>
+                <div>
+                      Female @Html.RadioButtonFor(m => m.Gender, "Female")
+                </div>
+                <span asp-validation-for="Gender" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                 <label asp-for="Department" class="control-label">Select Department: </label> <br />
+                  <div class="d-flex align-items-center gap-3" style="display:flex;gap:40px">
+                    <div class="mr-2">
+                            @Html.DropDownListFor(empModel => empModel.Department, new SelectList(new[]
+                        {
+                    new SelectListItem { Text = "IT", Value = "IT" },
+                    new SelectListItem { Text = "HR", Value = "HR" },
+                    new SelectListItem { Text = "Finance", Value = "Finance" },
+                    new SelectListItem { Text = "Sales", Value = "Sales" },
+                    new SelectListItem { Text = "Marketing", Value = "Marketing"},
+                    new SelectListItem { Text = "Others", Value = "Others" }
+                    }, "Value", "Text"), "-- Select Department --", new { @class = "form-control" })
+                    @Html.ValidationMessageFor(empModel => empModel.Department, "", new { @class = "text-danger" })
+
+                        </div>
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="Salary" class="control-label"></label>
+                <input asp-for="Salary" class="form-control styled-input" />
+                <span asp-validation-for="Salary" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StartDate" class="control-label"></label>
+                <input asp-for="StartDate" class="form-control styled-input" />
+                <span asp-validation-for="StartDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Notes" class="control-label"></label>
+                <input asp-for="Notes" class="form-control styled-input" />
+                <span asp-validation-for="Notes" class="text-danger"></span>
+            </div>
+            </br>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary styled-button" />
+            </div>
+        </form>
+    </div>
+</div>
+</hr>
+<div class="styled-link">
+    <a asp-action="GetllEmployye">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,63 @@
+﻿body {
+  background-color:#36e0bd; 
+}
+.table{
+    align-center;
+    color:white;
+}
+
+.styled-form {
+    margin-top: 20px;
+}
+
+.styled-input {
+    /* Add your custom styles for the input fields */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 12px;
+    color:hotpink;
+}
+
+.styled-button {
+    /* Add your custom styles for the button */
+    background-color:darkred;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    color:chartreuse;
+}
+
+    .styled-button:hover {
+        background-color: #0056b3; /* Darker shade on hover */
+    }
+
+.styled-link {
+    margin-top: 10px;
+    color: crimson;
+    background-color: honeydew;
+}
+.delete-message{
+    color:blueviolet;
+}
+
+.delete-form {
+    margin-top: 20px;
+}
+
+.delete-button {
+    /* Your custom styles for the delete button */
+    background-color: #dc3545;
+    border-color: #dc3545;
+    background-color:chocolate;
+}
+
+    .delete-button:hover {
+        /* Your custom hover styles for the delete button */
+        background-color: #c82333;
+        border-color: #bd2130;
+        background-color:brown;
+    }
+
+}

@@ -1,0 +1,17 @@
+C:\Users\deept\source\repos\EmployeePayRoll\BusineessLayer\bin\Debug\net6.0\BusineessLayer.deps.json
+C:\Users\deept\source\repos\EmployeePayRoll\BusineessLayer\bin\Debug\net6.0\BusineessLayer.dll
+C:\Users\deept\source\repos\EmployeePayRoll\BusineessLayer\bin\Debug\net6.0\BusineessLayer.pdb
+C:\Users\deept\source\repos\EmployeePayRoll\BusineessLayer\bin\Debug\net6.0\ModelLayer.dll
+C:\Users\deept\source\repos\EmployeePayRoll\BusineessLayer\bin\Debug\net6.0\RepositoryLayer.dll
+C:\Users\deept\source\repos\EmployeePayRoll\BusineessLayer\bin\Debug\net6.0\RepositoryLayer.pdb
+C:\Users\deept\source\repos\EmployeePayRoll\BusineessLayer\bin\Debug\net6.0\ModelLayer.pdb
+C:\Users\deept\source\repos\EmployeePayRoll\BusineessLayer\obj\Debug\net6.0\BusineessLayer.csproj.AssemblyReference.cache
+C:\Users\deept\source\repos\EmployeePayRoll\BusineessLayer\obj\Debug\net6.0\BusineessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deept\source\repos\EmployeePayRoll\BusineessLayer\obj\Debug\net6.0\BusineessLayer.AssemblyInfoInputs.cache
+C:\Users\deept\source\repos\EmployeePayRoll\BusineessLayer\obj\Debug\net6.0\BusineessLayer.AssemblyInfo.cs
+C:\Users\deept\source\repos\EmployeePayRoll\BusineessLayer\obj\Debug\net6.0\BusineessLayer.csproj.CoreCompileInputs.cache
+C:\Users\deept\source\repos\EmployeePayRoll\BusineessLayer\obj\Debug\net6.0\BusineessLayer.csproj.CopyComplete
+C:\Users\deept\source\repos\EmployeePayRoll\BusineessLayer\obj\Debug\net6.0\BusineessLayer.dll
+C:\Users\deept\source\repos\EmployeePayRoll\BusineessLayer\obj\Debug\net6.0\refint\BusineessLayer.dll
+C:\Users\deept\source\repos\EmployeePayRoll\BusineessLayer\obj\Debug\net6.0\BusineessLayer.pdb
+C:\Users\deept\source\repos\EmployeePayRoll\BusineessLayer\obj\Debug\net6.0\ref\BusineessLayer.dll

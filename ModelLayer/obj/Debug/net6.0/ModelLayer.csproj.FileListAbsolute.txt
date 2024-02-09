@@ -1,0 +1,12 @@
+C:\Users\deept\source\repos\EmployeePayRoll\ModelLayer\bin\Debug\net6.0\ModelLayer.deps.json
+C:\Users\deept\source\repos\EmployeePayRoll\ModelLayer\bin\Debug\net6.0\ModelLayer.dll
+C:\Users\deept\source\repos\EmployeePayRoll\ModelLayer\bin\Debug\net6.0\ModelLayer.pdb
+C:\Users\deept\source\repos\EmployeePayRoll\ModelLayer\obj\Debug\net6.0\ModelLayer.csproj.AssemblyReference.cache
+C:\Users\deept\source\repos\EmployeePayRoll\ModelLayer\obj\Debug\net6.0\ModelLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deept\source\repos\EmployeePayRoll\ModelLayer\obj\Debug\net6.0\ModelLayer.AssemblyInfoInputs.cache
+C:\Users\deept\source\repos\EmployeePayRoll\ModelLayer\obj\Debug\net6.0\ModelLayer.AssemblyInfo.cs
+C:\Users\deept\source\repos\EmployeePayRoll\ModelLayer\obj\Debug\net6.0\ModelLayer.csproj.CoreCompileInputs.cache
+C:\Users\deept\source\repos\EmployeePayRoll\ModelLayer\obj\Debug\net6.0\ModelLayer.dll
+C:\Users\deept\source\repos\EmployeePayRoll\ModelLayer\obj\Debug\net6.0\refint\ModelLayer.dll
+C:\Users\deept\source\repos\EmployeePayRoll\ModelLayer\obj\Debug\net6.0\ModelLayer.pdb
+C:\Users\deept\source\repos\EmployeePayRoll\ModelLayer\obj\Debug\net6.0\ref\ModelLayer.dll

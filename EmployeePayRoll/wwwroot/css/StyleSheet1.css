@@ -1,0 +1,26 @@
+﻿/* styles.css */
+
+.title {
+    color: blueviolet;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+}
+
+
+  .
+
+.button-link {
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+ .button-link:hover {
+        background-color: #007bff;
+        color: #fff;
+    }

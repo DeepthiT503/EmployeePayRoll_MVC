@@ -1,0 +1,199 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\deept\\source\\repos\\EmployeePayRoll\\BusineessLayer\\BusineessLayer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\deept\\source\\repos\\EmployeePayRoll\\BusineessLayer\\BusineessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\deept\\source\\repos\\EmployeePayRoll\\BusineessLayer\\BusineessLayer.csproj",
+        "projectName": "BusineessLayer",
+        "projectPath": "C:\\Users\\deept\\source\\repos\\EmployeePayRoll\\BusineessLayer\\BusineessLayer.csproj",
+        "packagesPath": "C:\\Users\\deept\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\deept\\source\\repos\\EmployeePayRoll\\BusineessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\deept\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\deept\\source\\repos\\EmployeePayRoll\\RepositoryLayer\\RepositoryLayer.csproj": {
+                "projectPath": "C:\\Users\\deept\\source\\repos\\EmployeePayRoll\\RepositoryLayer\\RepositoryLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\deept\\source\\repos\\EmployeePayRoll\\ModelLayer\\ModelLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\deept\\source\\repos\\EmployeePayRoll\\ModelLayer\\ModelLayer.csproj",
+        "projectName": "ModelLayer",
+        "projectPath": "C:\\Users\\deept\\source\\repos\\EmployeePayRoll\\ModelLayer\\ModelLayer.csproj",
+        "packagesPath": "C:\\Users\\deept\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\deept\\source\\repos\\EmployeePayRoll\\ModelLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\deept\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\deept\\source\\repos\\EmployeePayRoll\\RepositoryLayer\\RepositoryLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\deept\\source\\repos\\EmployeePayRoll\\RepositoryLayer\\RepositoryLayer.csproj",
+        "projectName": "RepositoryLayer",
+        "projectPath": "C:\\Users\\deept\\source\\repos\\EmployeePayRoll\\RepositoryLayer\\RepositoryLayer.csproj",
+        "packagesPath": "C:\\Users\\deept\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\deept\\source\\repos\\EmployeePayRoll\\RepositoryLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\deept\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\deept\\source\\repos\\EmployeePayRoll\\ModelLayer\\ModelLayer.csproj": {
+                "projectPath": "C:\\Users\\deept\\source\\repos\\EmployeePayRoll\\ModelLayer\\ModelLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
