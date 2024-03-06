@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\deept\source\repos\EmployeePayRoll\EmployeePayRoll
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/deept/source/repos/EmployeePayRoll/EmployeePayRoll/Views/Ajax/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWpheFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/deept/source/repos/EmployeePayRoll/EmployeePayRoll/Views/Employee/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
