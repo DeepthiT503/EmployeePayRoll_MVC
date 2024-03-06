@@ -252,3 +252,4 @@ C:\Users\deept\source\repos\EmployeePayRoll\EmployeePayRoll\obj\Debug\net6.0\ref
 C:\Users\deept\source\repos\EmployeePayRoll\EmployeePayRoll\obj\Debug\net6.0\EmployeePayRoll.pdb
 C:\Users\deept\source\repos\EmployeePayRoll\EmployeePayRoll\obj\Debug\net6.0\EmployeePayRoll.genruntimeconfig.cache
 C:\Users\deept\source\repos\EmployeePayRoll\EmployeePayRoll\obj\Debug\net6.0\ref\EmployeePayRoll.dll
+C:\Users\deept\source\repos\EmployeePayRoll\EmployeePayRoll\obj\Debug\net6.0\EmployeePayRoll.sourcelink.json
